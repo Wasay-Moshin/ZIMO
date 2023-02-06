@@ -6,7 +6,7 @@ function Tickets() {
       <div className="grid lg:grid-cols-2">
         <div className="flex items-start justify-center flex-col">
           <img className="w-80" src="Assets/ZIMO B.png" alt="" />
-          <div className="mt-3">
+          <div className="mt-3 mb-5">
             <span>One Sources</span>
             <h1>Entry Tickets</h1>
             <p>For All Premium Listing</p>

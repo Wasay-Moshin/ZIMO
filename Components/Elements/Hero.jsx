@@ -1,6 +1,8 @@
 import React from "react";
 
 function Hero() {
+
+
   return (
     <div className="custom-img w-full h-screen bg-cover bg-center ">
       <div className="container mx-auto px-6 pt-5">
@@ -12,10 +14,10 @@ function Hero() {
             <img className="w-20" src="Assets/ZIMO W.svg" alt="" />
             &nbsp;
             &nbsp;
-            <p>About</p>
+            <p className="text-xs">About</p>
           </div>
           <div className="flex items-center justify-center">
-            <img className="w-20  block" src="Assets/ZIMO ZIG W.svg" alt="" />
+            <img className="w-20  md:block hidden" src="Assets/ZIMO ZIG W.svg" alt="" />
           </div>
           <div>
             <div className="flex items-end justify-end flex-col">
@@ -24,7 +26,9 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="discover pt-[13rem]"  data-aos="zoom-in">
+  
+
+      <div className="discover pt-[10rem]" data-aos="zoom-in">
         <h5 className="text-white ml-[2rem]">Discover</h5>
         <h1 className="text-white ml-[2rem]">A NEW WORLD</h1>
         <p className="ml-[2rem]">FOR THOSE WHO WISH FOR MORE...</p>
